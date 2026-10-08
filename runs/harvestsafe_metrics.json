@@ -1,0 +1,20 @@
+{
+  "epochs": 1,
+  "train_mse": 0.033061271688590445,
+  "val_mse": 0.008338338695466518,
+  "train_mae": 0.16255454098184904,
+  "val_mae": 0.07557591050863266,
+  "n_parameters": 865,
+  "train_batches": 6,
+  "log_dir": "runs/harvestsafe_experiment_1",
+  "checkpoint_path": "runs/harvestsafe_model_epoch1.keras",
+  "feature_names": [
+    "total_harvest_rainfall_mm",
+    "heavy_rain_days",
+    "mean_relative_humidity",
+    "peak_temperature_c",
+    "rainfall_intensity_ratio",
+    "moisture_hazard_index",
+    "log_yield_exposure"
+  ]
+}
